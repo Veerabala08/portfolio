@@ -22,7 +22,7 @@
   height: 42px;
 }
 
-.description {
+.description p{
     font-size: large;
     text-transform: none;
     line-height: 26px;
@@ -44,6 +44,10 @@
     max-width: 600px;
     padding: 20px;
   }
+
+
+
+
 
 .animation {
   text-align: center;

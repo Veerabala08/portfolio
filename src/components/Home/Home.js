@@ -17,8 +17,7 @@ const Home = () => {
                   <div className="second"><div>DEV</div></div>
                   <div className="third"><div>PY_DEV</div></div>
               </div>
-              <div className="description"><p>{description}</p>
-              </div>
+              <div className="description"><p>{description}</p> </div>
               <div className="icon-container">
                   <a href={github} target="_blank" rel="noopener noreferrer" title='Github'>
                       <img src={GithubIcon} alt="GitHub" className="icon" />
