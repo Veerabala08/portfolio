@@ -35,9 +35,6 @@ nav {
   color: green;
   cursor: grab;
 }
-.home{
-  color:white;
-}
 .home:hover{
   color: green;
   cursor: grab;
