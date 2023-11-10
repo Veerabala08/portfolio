@@ -13,3 +13,17 @@
     text-transform: uppercase;
     text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
 }
+
+@media screen and (max-width: 768px) {
+    .projects__grid {
+        margin: 0 1em; /* Adjust as needed */
+
+    }
+}
+@media screen and (max-width: 300px) {
+  .projects__grid {
+      margin: 0 1em; /* Adjust as needed */
+      grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+
+  }
+}

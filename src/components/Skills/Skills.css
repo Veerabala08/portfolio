@@ -1,5 +1,6 @@
 .div__skills {
-  height: 110vh;
+  /* height: 110vh; */
+  margin-top: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,8 +12,9 @@
   width: 95%;
   /* margin: 0 auto; */
   padding: 1em;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin: 0 auto;
+  /* margin-left: 50%;
+  margin-right: 50%; */
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;

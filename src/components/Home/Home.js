@@ -13,11 +13,11 @@ const Home = () => {
           <div className="content">
               <div className="intro-line">Hello 👋 I'm {name}</div>
               <div className="animation">
-                  <div className="first"><div>software developer</div></div>
-                  <div className="second"><div>web developer</div></div>
-                  <div className="third"><div>python developer</div></div>
+                  <div className="first"><div>WEB_DEV</div></div>
+                  <div className="second"><div>DEV</div></div>
+                  <div className="third"><div>PY_DEV</div></div>
               </div>
-              <div className="discription"><p>{description}</p>
+              <div className="description"><p>{description}</p>
               </div>
               <div className="icon-container">
                   <a href={github} target="_blank" rel="noopener noreferrer" title='Github'>

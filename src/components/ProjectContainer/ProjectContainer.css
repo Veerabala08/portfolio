@@ -1,6 +1,7 @@
 .project {
     font-size: 1.26rem;
-    padding: 2em;
+    border: 1px solid #ccc;
+    padding: 1em;
     margin: 0 auto;
     text-align: center;
     color: #e5e5e5;
@@ -26,6 +27,7 @@
     background-size: 0% 100%;
     background-image: linear-gradient(to right, #2e2f33,  #2e2f33);
     border-radius: 2px;
+    font-size: large;
   }
   
   .project__stack {
@@ -58,3 +60,19 @@
     background-position: right;
     background-size: 100% 100%;
   }
+
+  /* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .project {
+      font-size: 1rem; /* Adjust the font size for smaller screens */
+      padding: 0.5em; /* Adjust the padding */
+  }
+
+  .project__stack {
+      margin: 0.8em 0; /* Adjust the margin for the stack */
+  }
+
+  .project__stack-item {
+      font-size: 0.7rem; /* Adjust the font size for stack items */
+  }
+}

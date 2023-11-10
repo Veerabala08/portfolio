@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
-body {
-  font-family: 'Roboto';
-  background-color: #131417;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .intro-line {
   color: #e5e5e5;
@@ -28,15 +22,17 @@ body {
   height: 42px;
 }
 
-.discription {
-    font-size: 1.26rem;
+.description {
+    font-size: large;
     text-transform: none;
+    line-height: 26px;
 }
 
 .container {
+  margin-top: 60px;
   color: #e5e5e5;
   font-size: 2.26rem;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;

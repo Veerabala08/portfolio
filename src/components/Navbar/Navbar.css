@@ -35,6 +35,10 @@ nav {
   color: green;
   cursor: grab;
 }
+.home:hover{
+  color: green;
+  cursor: grab;
+}
 
 /* Responsive Styles for Mobile Devices */
 @media (max-width: 768px) {

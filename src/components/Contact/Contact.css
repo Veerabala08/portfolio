@@ -1,12 +1,15 @@
 
   .contact {
     display: flex;
+    column-gap: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center; /* Optional for text alignment */
   }
-  
+  .section__title {
+    margin-bottom: 60px; /* Adjust the margin as needed */
+  }
   .btn--outline {
     list-style: none;
     margin: 0.5em; /* Add spacing between list items */

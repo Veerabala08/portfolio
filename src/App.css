@@ -1,0 +1,14 @@
+/* Import the Roboto Flex font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+/* Apply the font to the .App-Section class */
+.App-Section {
+    font-family: 'Roboto Flex', sans-serif; /* Specify fallback font-family */
+}
+body {
+    font-family: 'Roboto';
+    background-color: #1d1f25;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
