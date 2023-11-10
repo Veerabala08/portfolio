@@ -1,63 +1,50 @@
-@import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    height: 10vh;
-    list-style: none;
-    padding: 0.5em;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color:#131417 /* add your desired background color */;
-    z-index: 1000; /* adjust the z-index as needed */
-  }
-  
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
-    .menu {
-      flex-direction: row; /* Keep items horizontal */
-      justify-content: space-around; /* Adjust as needed */
-      align-items: center;
-      height: auto;
-      flex-wrap: wrap; /* Allow items to wrap onto a new line if necessary */
-    }
-  }
-  
-.menu li {
-  display: block;
-  width: 125px;
-  height: 50px;
-  transition: background-position-x 0.9s linear;
+
+nav {
+  background-color: #333;
+  padding-top: 8px;
+  padding-bottom: 8px;
   text-align: center;
-
-  a {
-    font-size: 22px;
-    color: white;
-    text-decoration: none;
-    transition: all 0.45s;
-  }
-
-  &:hover {
-    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
-    animation: line 1s;
-    
-  }
-
-  &:hover a {
-    color: #d94f5c;
-    cursor: grab;
-  }
-
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Adjust the z-index as needed */
 }
 
-@keyframes line {
-  0% {
-    background-position-x: 390px;
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Change to flex-start */
+}
+
+.menu li {
+  display: inline;
+  margin-right: 10px; /* Add some right margin to separate items */
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  color: green;
+  cursor: grab;
+}
+
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .menu li {
+    margin-right: 0; /* Reset margin for mobile view */
+    margin-bottom: 10px;
   }
 }
