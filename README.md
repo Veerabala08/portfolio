@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# My Personal portfolio 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live https://Veerabala08.github.io/portfolio 
 
 ## Available Scripts
 
