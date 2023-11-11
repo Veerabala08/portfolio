@@ -6,10 +6,10 @@ Welcome to my personal portfolio! This repository contains the code and informat
 
 ## Table of Contents
 
-- [Home](#home)
-- [Projects](#projects)
-- [Skills](#skills)
-- [Contact](#contact)
+- [Home]
+- [Projects]
+- [Skills]
+- [Contact]
 
 Feel free to reach out if you have any questions or collaboration opportunities!
 
