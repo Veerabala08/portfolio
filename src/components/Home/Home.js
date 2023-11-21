@@ -1,7 +1,7 @@
 // import React from 'react';
 import './Home.css'; // Import your CSS file
-import GithubIcon from '../Assets/square-github.svg'
-import LinkedinIcon from '../Assets/linkedin.svg'
+import GithubIcon from '../Assets/square-github.png'
+import LinkedinIcon from '../Assets/linkedin.png'
 import ResumeIcon from '../Assets/file-regular.svg'
 import {about} from '../../profile'
 

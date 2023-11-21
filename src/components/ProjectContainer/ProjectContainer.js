@@ -1,5 +1,5 @@
 import uniqid from 'uniqid'
-import GithubIcon from '../Assets/square-github.svg'
+import GithubIcon from '../Assets/square-github.png'
 import VisitIcon from '../Assets/visit.svg'
 import './ProjectContainer.css'
 
