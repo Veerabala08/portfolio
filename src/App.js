@@ -10,14 +10,14 @@ import './App.css';
 function App() {
   
   return (
-      <main>
+      <div className='App'>
         <Navbar />
         <Home />
         <Projects />
         <Skills />
         <Contact />
         <Footer/>
-      </main>
+      </div>
     
   );
 }

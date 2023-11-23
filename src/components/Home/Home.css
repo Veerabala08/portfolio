@@ -5,7 +5,7 @@
 .intro-line {
   color: #e5e5e5;
   font-size: 2.26rem;
-  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3);
+  /* text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3); */
 }
 
 .icon-container {
@@ -28,9 +28,13 @@
     line-height: 26px;
 }
 
+.description p{
+  color: white;
+}
+
 .container {
-  margin-top: 60px;
-  color: #e5e5e5;
+  margin-top: 80px;
+  color: #00baba;
   font-size: 2.26rem;
   height: 50vh;
   display: flex;
@@ -63,16 +67,18 @@
   animation: text-animation 8s infinite;
 }
 
+
+
 .first div {
-  background-color: #2e2f33;
+  background-color: #000000;
 }
 
 .second div {
-  background-color: green;
+  background-color: black;
 }
 
 .third div {
-  background-color: #c10528;
+  background-color: #000000;
 }
 
 @keyframes text-animation {

@@ -6,9 +6,16 @@
     font-family: 'Roboto Flex', sans-serif; /* Specify fallback font-family */
 }
 body {
-    font-family: 'Roboto';
-    background-color: #1d1f25;
+    /* font-family: 'Roboto'; */
+    font-family:'Courier New';
+    background-color: #040405;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  p{
+    font: size 14px;
   }
