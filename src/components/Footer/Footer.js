@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className='footer'>
     <p>&copy; 2023 Veerabala</p>
     <p>
-      Made&nbsp;with&nbsp; &#128150; &nbsp;and&nbsp;Lemon&nbsp;juice
+    Crafted&nbsp;with&nbsp;&#128150;&nbsp;and&nbsp;a&nbsp;touch&nbsp;of&nbsp;&#10024; Magic.
     </p>
   </footer>
 )

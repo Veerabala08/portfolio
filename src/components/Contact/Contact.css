@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     text-align: center; /* Optional for text alignment */
+    font-weight: bold;
   }
   .section__title {
     margin-bottom: 60px; /* Adjust the margin as needed */

@@ -1,95 +1,93 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-
-
-
-.intro-line {
-  color: #e5e5e5;
-  font-size: 2.26rem;
-  /* text-shadow: 0 0 7px rgba(255, 255, 255, 0.3), 0 0 3px rgba(255, 255, 255, 0.3); */
-}
-
-.icon-container {
+.center-container {
     display: flex;
-    justify-content: space-between;
-    max-width: 200px;
-    margin: 0 auto;
-    /* background: #A0C5E8; */
-    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust this as needed to center vertically */
   }
-
-.icon {
-  width: 42px;
-  height: 42px;
-}
-
-.description {
-    font-size: large;
-    text-transform: none;
-    line-height: 26px;
-}
-
-.description p{
-  color: white;
-}
-
-.container {
-  margin-top: 80px;
-  color: #00baba;
-  font-size: 2.26rem;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.content {
+  
+  .center-content {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     max-width: 600px;
     padding: 20px;
   }
+  
+  .center-content
+  p{
+    text-align: justify;
+    margin-bottom: 15px; /* Add your desired margin for paragraph spacing */
+    line-height: 1.5;
+    color: white; /* Add your desired margin-bottom for line spacing */
+  }
 
-.animation {
-  text-align: center;
-  margin-top: 1rem;
-  height: 50px;
-  overflow: hidden;
-}
+  .intro-line {
+    color:white;
+    font-size: 2.26rem;
+    
+    }
 
-.animation > div > div {
-  padding: 0.25rem 0.75rem;
-  height: 2.81rem;
-  margin-bottom: 2.81rem;
-  display: inline-block;
-}
+    .icon-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        
+        /* max-width: 300px;  */
+        /* margin: 50% 50%; */
+        /* background: #A0C5E8; */
+        padding: 10px 0;
+      }
+    
+    .icon {
+      width: 42px;
+      height: 42px;
+      margin-top: 0.3em;
+    }
 
-.animation div:first-child {
-  animation: text-animation 8s infinite;
-}
-
-
-
-.first div {
-  background-color: #000000;
-}
-
-.second div {
-  background-color: black;
-}
-
-.third div {
-  background-color: #000000;
-}
-
-@keyframes text-animation {
-  0% { margin-top: 0; }
-  10% { margin-top: 0; }
-  20% { margin-top: -5.62rem; }
-  30% { margin-top: -5.62rem; }
-  40% { margin-top: -11.24rem; }
-  60% { margin-top: -11.24rem; }
-  70% { margin-top: -5.62rem; }
-  80% { margin-top: -5.62rem; }
-  90% { margin-top: 0; }
-  100% { margin-top: 0; }
-}
+  /* Add more styling as needed */
+  .animation {
+    font-size: 2.26rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  .first div {
+    background-color: rgb(182, 182, 49);
+  }
+  
+  .second div {
+    background-color: rgb(255, 18, 18);
+  }
+  
+  .third div {
+    background-color: rgb(66, 255, 230);
+  }
+  
+  @keyframes text-animation {
+    0% { margin-top: 0; }
+    10% { margin-top: 0; }
+    20% { margin-top: -5.62rem; }
+    30% { margin-top: -5.62rem; }
+    40% { margin-top: -11.24rem; }
+    60% { margin-top: -11.24rem; }
+    70% { margin-top: -5.62rem; }
+    80% { margin-top: -5.62rem; }
+    90% { margin-top: 0; }
+    100% { margin-top: 0; }
+  }
+  
