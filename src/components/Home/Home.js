@@ -4,7 +4,7 @@ import GithubIcon from '../Assets/square-github.png'
 import LinkedinIcon from '../Assets/linkedin.png'
 import ResumeIcon from '../Assets/file-regular.png'
 import {about} from '../../profile'
-
+import Spline from '@splinetool/react-spline';
 
 const Home = () => {
     const {name, description, resume, github, linkedin } = about
@@ -29,6 +29,9 @@ const Home = () => {
                      <img src={ResumeIcon} alt="Resume" className="icon" />
                  </a>
              </div>
+          </div>
+          <div>
+          <Spline scene="https://prod.spline.design/oSffpT1YX3vNpNoV/scene.splinecode" />
           </div>
       </div>
 

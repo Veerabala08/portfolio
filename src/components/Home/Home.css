@@ -1,8 +1,11 @@
 .center-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 100vh; /* Adjust this as needed to center vertically */
+    margin-top: 50px;
   }
   
   .center-content {

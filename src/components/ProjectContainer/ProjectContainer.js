@@ -11,7 +11,7 @@ const ProjectContainer = ({ project }) => (
       <ul className='project__stack'>
         {project.stack.map((item) => (
           <li key={uniqid()} className='project__stack-item'>
-            {item}
+            {item},
           </li>
         ))}
       </ul>

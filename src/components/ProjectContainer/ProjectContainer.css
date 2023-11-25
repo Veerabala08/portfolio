@@ -15,6 +15,7 @@
     border-radius: 2px;
     font:size 14px;
     color: white;
+    background-image: linear-gradient(to right, #007c7c, #007c7c);
   }
   
   .project__stack {

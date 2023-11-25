@@ -15,7 +15,7 @@ const projects = [
     name: 'Spotify Web API',
     description:
       'A command-line app where you can fetch the top 10 albums of your favorite artist using Spotify Web API.',
-    stack: ['Python ', 'REST-API '],
+    stack: ['Python', 'REST-API'],
     sourceCode: 'https://github.com/Veerabala08/Spotify_api',
     livePreview: '',
   },
@@ -23,7 +23,7 @@ const projects = [
     name: 'Learning Log',
     description:
       "An online journal system that lets you keep track of information you've learned about particular topics",
-    stack: ['Python ','Django ','Bootstrap '],
+    stack: ['Python','Django','Bootstrap'],
     sourceCode: 'https://github.com/Veerabala08/Learning_Log',
     livePreview: '',
   },
@@ -31,7 +31,7 @@ const projects = [
     name: 'Chatting App',
     description:
       'Create, Connect, Chat: Where Every Room Tells a Story.Chatting app were the user can create chatrooms and have chat mutiple user.',
-    stack: ['HTML/CSS ', 'SocketIO ', 'Flask '],
+    stack: ['HTML/CSS', 'SocketIO', 'Flask'],
     sourceCode: 'https://github.com/Veerabala08/Chatting_App',
     livePreview: '',
   },
@@ -39,7 +39,7 @@ const projects = [
     name: 'Portfolio',
     description:
       'Live Portfolio website to showcase the  skills and projects  that I have created. If you are reading this, you are on the website itself.',
-    stack: ['React ','Github '],
+    stack: ['React','Github', 'Spline 3D'],
     sourceCode: 'https://github.com/Veerabala08/portfolio',
     livePreview: 'https://veerabala08.github.io/portfolio/',
   },
