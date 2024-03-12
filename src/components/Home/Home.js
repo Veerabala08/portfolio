@@ -8,7 +8,7 @@ import Spline from '@splinetool/react-spline';
 
 const Home = () => {
     const {name, description, resume, github, linkedin } = about
-  return (  
+  return (  <>
       <div className="center-container">
           <div className="center-content">   
                   <div className="intro-line">Hello &#127758;, I'm {name}</div>
@@ -34,6 +34,8 @@ const Home = () => {
           <Spline scene="https://prod.spline.design/oSffpT1YX3vNpNoV/scene.splinecode" />
           </div>
       </div>
+                <div className='expsxr'></div>
+</>
 
   );
 };

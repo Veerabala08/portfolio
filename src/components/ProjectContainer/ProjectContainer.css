@@ -3,7 +3,7 @@
     border: 1px solid #00f8f8;
     padding: 1em;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     color: #00baba;
     transition: transform 0.2s linear;
   }
@@ -11,6 +11,7 @@
   .project__description {
     margin-top: 1em;
     background-position: left;
+    /* text-align: justify; */
     background-size: 0% 100%;
     border-radius: 2px;
     font:size 14px;
@@ -44,6 +45,7 @@
     display: inline;
     background-repeat: no-repeat;
     transition: all 500ms ease-in-out;
+    
   }
   
   .project__description:hover {

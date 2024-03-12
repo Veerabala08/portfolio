@@ -1,0 +1,64 @@
+.expcontent{
+    font-size: 1.26rem;
+    border: 1px solid #00f8f8;
+    margin: 3em;
+    max-width: 1055px;
+    padding: 1em;
+}
+.expdes{
+    text-align: justify;
+    line-height: 1.5;
+}
+.expdate{
+    color: #00baba;
+    font-size: large;
+}
+.exprole{
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .expcontent {
+        margin: 2em 1em 0.7em 0.7em; /* Adjust as needed */
+  
+    }
+  }
+
+
+  .bullet-point {
+    position: relative;
+    display: inline-block; /* Allow text to wrap around the span */
+    margin-right: 20px;
+    margin-bottom: 2px; /* Add spacing between bullet point and text */
+    width: 7px; /* Adjust width as needed */
+    height: 7px; /* Adjust height as needed */
+    background-color: cyan;
+    /* Create a cube using properties for all six sides: */
+    transform: translateZ(5px); /* Move the cube slightly forward */
+    box-shadow:
+      /* Top face (bright cyan) */
+      0 -2px 2px 1px rgba(0, 255, 255, 0.8),
+      /* Right face (darker cyan) */
+      2px 0 2px 1px rgba(0, 255, 255, 0.5),
+      /* Bottom face (less bright cyan) */
+      0 2px 2px 1px rgba(0, 255, 255, 0.6),
+      /* Left face (darkest cyan) */
+      -2px 0 2px 1px rgba(0, 255, 255, 0.3),
+      /* Front face (inner glow) */
+      inset 0 0 0 1px rgba(0, 255, 255, 0.7),
+      /* Back face (outer glow, slightly transparent) */
+      0 0 5px 2px rgba(0, 255, 255, 0.2);
+    /* Animation for a pulsating glow */
+    animation: glow 0.2s ease-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    to {
+      box-shadow:
+        0 -2px 2px 1px rgba(0, 255, 255, 1),
+        2px 0 2px 1px rgba(0, 255, 255, 0.7),
+        0 2px 2px 1px rgba(0, 255, 255, 0.8),
+        -2px 0 2px 1px rgba(0, 255, 255, 0.5),
+        inset 0 0 0 2px rgba(0, 255, 255, 0.8),
+        0 0 10px 4px rgba(0, 255, 255, 0.3);
+    }
+  }

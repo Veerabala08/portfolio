@@ -5,34 +5,56 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 nav a {
   float: left;
   font-weight: bold;
-  display: block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 8px 10px;
   text-decoration: none;
 }
 
-.logo {
-  float: right;
-}
 
 nav a:hover {
   background-color: #00FFBD;
   color: black;
 }
 
-
-
-@media screen and (max-width: 600px) {
-  nav a {
-      float: left;
-      width: auto;
-      text-align: center;
-  }
-  
+nav .menu{
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.2rem;
+  height: 2rem;
 }
+
+nav .menu span{
+  height: 0.4rem;
+  width: 100%;
+  background-color: #00baba;
+  border-radius: 0.2rem;
+}
+
+@media (max-width:550px) {
+  nav .menu{
+    display: flex;
+  }
+  nav {
+    flex-direction: column;
+    align-items: start;
+  }
+nav .menuOpen{
+  display:none;
+  flex-direction: column;
+  align-items: start;
+}
+}
+
