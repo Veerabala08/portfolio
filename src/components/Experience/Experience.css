@@ -1,9 +1,13 @@
+.timeline{
+  
+}
 .expcontent{
     font-size: 1.26rem;
     border: 1px solid #00f8f8;
     margin: 3em;
     max-width: 1055px;
     padding: 1em;
+    margin-inline:auto
 }
 .expdes{
     text-align: justify;

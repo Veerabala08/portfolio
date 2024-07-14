@@ -1,30 +1,24 @@
-// Navbar.js
-import React, { useState } from 'react';
-import './Navbar.css'
-// import React, { useEffect } from 'react';
-import { Link, animateScroll } from 'react-scroll';
-
+import { Link, animateScroll as scroll } from 'react-scroll';
+import './Navbar.css';
 
 const Navbar = () => {
+
   const options = {
     duration: 500,
     smooth: true,
   };
 
-  const [menuOpen, setmenuOpen] = useState(true)
   return (
-
     <nav>
-      <a><Link onClick={() => animateScroll.scrollToTop(options)}>Home</Link></a>
-      <div className={menuOpen ? 'menuOpen' : ""}><a><Link to="expsxr" smooth={true} duration={500}>XP</Link></a>
-        <a><Link to="section__experience" smooth={true} duration={500}>Projects</Link></a>
-        <a><Link to="div__skills" smooth={true} duration={500}>Skills</Link></a>
-        <a><Link to="contact" smooth={true} duration={500}>Contact</Link></a>
-      </div> <div className='menu' onClick={() => {
-        setmenuOpen(!menuOpen);
-      }}><span></span><span></span><span></span></div>
+      <div className='menuClosed' >
+        <Link to="home" smooth={true} duration={500} onClick={() => scroll.scrollToTop(options)}>Home</Link>
+        <Link to="expsxr" smooth={true} duration={500}>XP</Link>
+        <Link to="section__experience" smooth={true} duration={500}>Projects</Link>
+        <Link to="div__skills" smooth={true} duration={500}>Skills</Link>
+        <Link to="contact" smooth={true} duration={500}>Contact</Link>
+      </div>
+      
     </nav>
-
   );
 }
 
