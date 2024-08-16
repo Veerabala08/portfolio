@@ -4,15 +4,16 @@ import GithubIcon from "../Assets/square-github.png";
 import LinkedinIcon from "../Assets/linkedin.png";
 import ResumeIcon from "../Assets/file-regular.png";
 import { about } from "../../profile";
-import Spline from "@splinetool/react-spline";
+// import Spline from "@splinetool/react-spline";
 
 const Home = () => {
-  const { name, description, resume, github, linkedin } = about;
+  const { name, resume, github, linkedin } = about;
   return (
     <>
       <div className="center-container">
         <div className="center-content">
-          <div className="intro-line">Hello &#127758;, I'm {name}</div>
+          <div className="intro-line">Hello &#127758;, I'm {name} </div>
+
           <div className="animation">
             <div className="first">
               <div>WEB_DEV</div>
@@ -24,7 +25,12 @@ const Home = () => {
               <div>PY_DEV</div>
             </div>
           </div>
-          <p>&nbsp; &nbsp; {description}</p>
+          <div>
+          <div>
+      <p>This is my old portfolio. If you’re still here, you must be quite the explorer! 🚀 Click <a style={{color: 'blue', textDecoration: 'underline'}} href="https://veerabala-portfolio.netlify.app/">here</a> to be teleported to the new site!</p>
+    </div>
+    </div>
+          {/* <p>&nbsp; &nbsp; {description}</p> */}
           <div className="icon-container">
             <a
               href={github}
